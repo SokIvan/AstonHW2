@@ -1,0 +1,66 @@
+2025-11-10 14:54:16 [main] INFO  - User Service Application Started
+2025-11-10 14:54:25 [main] INFO  - Creating new user: 1
+2025-11-10 14:54:25 [main] INFO  - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-11-10 14:54:26 [main] INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-11-10 14:54:26 [main] WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-11-10 14:54:26 [main] INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/userdb]
+2025-11-10 14:54:26 [main] INFO  - HHH10001001: Connection properties: {password=****, user=postgres}
+2025-11-10 14:54:26 [main] INFO  - HHH10001003: Autocommit mode: false
+2025-11-10 14:54:26 [main] INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-11-10 14:54:26 [main] INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-11-10 14:54:26 [main] INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6438a7fe] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-11-10 14:54:26 [main] INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-10 14:54:26 [main] WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-11-10 14:54:26 [main] INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/userdb]
+2025-11-10 14:54:26 [main] INFO  - HHH10001001: Connection properties: {password=****, user=postgres}
+2025-11-10 14:54:26 [main] INFO  - HHH10001003: Autocommit mode: false
+2025-11-10 14:54:26 [main] INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-11-10 14:54:27 [main] INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-11-10 14:54:27 [main] INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f1266c6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-11-10 14:54:27 [main] INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-10 14:54:27 [main] WARN  - SQL Error: 0, SQLState: 23505
+2025-11-10 14:54:27 [main] ERROR - ERROR: duplicate key value violates unique constraint "uk_6dotkott2kjsp8vw4d0m25fb7"
+  Подробности: Key (email)=(1) already exists.
+2025-11-10 14:55:08 [main] INFO  - Retrieving all users
+2025-11-10 14:55:14 [main] INFO  - Creating new user: 2
+2025-11-10 14:55:18 [main] INFO  - Retrieving all users
+2025-11-10 14:55:31 [main] INFO  - User Service Application Started
+2025-11-10 14:55:33 [main] INFO  - Retrieving all users
+2025-11-10 14:55:33 [main] INFO  - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-11-10 14:55:34 [main] INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-11-10 14:55:34 [main] WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-11-10 14:55:34 [main] INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/userdb]
+2025-11-10 14:55:34 [main] INFO  - HHH10001001: Connection properties: {password=****, user=postgres}
+2025-11-10 14:55:34 [main] INFO  - HHH10001003: Autocommit mode: false
+2025-11-10 14:55:34 [main] INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-11-10 14:55:34 [main] INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-11-10 14:55:34 [main] INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@43e1692f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-11-10 14:55:34 [main] INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-10 14:55:34 [main] WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-11-10 14:55:34 [main] INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/userdb]
+2025-11-10 14:55:34 [main] INFO  - HHH10001001: Connection properties: {password=****, user=postgres}
+2025-11-10 14:55:34 [main] INFO  - HHH10001003: Autocommit mode: false
+2025-11-10 14:55:34 [main] INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-11-10 14:55:34 [main] INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-11-10 14:55:34 [main] INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38d08cb5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-11-10 14:55:34 [main] INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-10 15:01:46 [main] INFO  - User Service Application Started
+2025-11-10 15:01:48 [main] INFO  - Retrieving all users
+2025-11-10 15:01:48 [main] INFO  - HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-11-10 15:01:49 [main] INFO  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-11-10 15:01:49 [main] WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-11-10 15:01:49 [main] INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/userdb]
+2025-11-10 15:01:49 [main] INFO  - HHH10001001: Connection properties: {password=****, user=postgres}
+2025-11-10 15:01:49 [main] INFO  - HHH10001003: Autocommit mode: false
+2025-11-10 15:01:49 [main] INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-11-10 15:01:49 [main] INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-11-10 15:01:49 [main] INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@66213a0d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-11-10 15:01:49 [main] INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-11-10 15:01:49 [main] WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-11-10 15:01:49 [main] INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/userdb]
+2025-11-10 15:01:49 [main] INFO  - HHH10001001: Connection properties: {password=****, user=postgres}
+2025-11-10 15:01:49 [main] INFO  - HHH10001003: Autocommit mode: false
+2025-11-10 15:01:49 [main] INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-11-10 15:01:49 [main] INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-11-10 15:01:50 [main] INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6bedd4e4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-11-10 15:01:50 [main] INFO  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
